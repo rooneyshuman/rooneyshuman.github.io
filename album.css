@@ -1,5 +1,4 @@
 .navbar {
-  margin-bottom: 30px;
   background-color: #547A82; 
 }
 
@@ -18,13 +17,33 @@
   background-color: #fff;
   background-image: url(background.jpg);
   background-size: cover;
-  background-position-y: 93%;
+  background-position-y: 45%;
 }
+
+.jumbotron-heading {
+  font-weight: 600 !important;
+  text-shadow: 3px 3px #5A5050 !important;
+}
+
+#headingtext {
+  left: 50px;
+}
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
+}
+
+.lead {
+  font-weight: 400 !important;
+  text-shadow: 2px 2px #5A5050 !important;
+  font-size: 25px !important;
+}
+
+#resume {
+  text-shadow: 1px 1px #5A5050;
 }
 
 .jumbotron p:last-child {
@@ -46,4 +65,8 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+#back{
+  color: #3EACA8 !important;
 }
