@@ -13,13 +13,15 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" />
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <header>
+        <!-- Navbar expanded with about section -->
         <div class="collapse" id="navbarHeader">
             <div class="container">
                 <div class="row">
@@ -52,6 +54,7 @@
                 </div>
             </div>
         </div>
+        <!-- Navbar collapsed -->
         <div class="navbar navbar-dark shadow">
             <div class="container d-flex justify-content-between">
                 <a href="#" class="navbar-brand d-flex align-items-center">
@@ -65,36 +68,39 @@
             </div>
         </div>
     </header>
-
+    <!-- Jumbotron with name and resume -->
     <main role="main">
         <section class="jumbotron text-left my-0">
             <div class="container mx-2">
                 <h1 class="jumbotron-heading text-light" id="jumbohead">BEL&EacuteN BUSTAMANTE</h1>
                 <p class="lead text-light mb-2">Computer Science Graduate Student <br> at Portland State University</p>
                 <p>
-                    <a href="Bustamante_Resume.pdf" class="btn btn-outline-light btn-lg mt-4" id="resume">Download Resume</a>
+                    <a href="Bustamante_Resume.pdf" class="btn btn-outline-light btn-lg mt-4" id="resume">Download
+                        Resume</a>
                 </p>
             </div>
         </section>
-
+        <!-- Projects section -->
         <div class="album py-5">
             <div class="container">
                 <h1 id="section_title">PROJECTS</h1>
                 <div class="row">
+                    <!-- First project row -->
                     <div class="col-md-4">
                         <div class="card mb-4 shadow">
                             <div class="card-header">INTERNET RELAY CHAT APPLICATION</div>
                             <div class="card-body">
-                              <ul>
-                                <li>
-                                    Implemented a TCP based chat app in Java allowing one-to-one and one-to-many
-                                    communication over a specified port.
-                                </li>
-                                <li>
-                                    Drafted an RFC document detailing the protocol’s specifications.
-                                </li>
-                              </ul>
-                              <a href="https://github.com/rooneyshuman/IRC_Project" class="btn btn-sm btn-outline-secondary mb-0">View</a>
+                                <ul>
+                                    <li>
+                                        Implemented a TCP based chat app in Java allowing one-to-one and one-to-many
+                                        communication over a specified port.
+                                    </li>
+                                    <li>
+                                        Drafted an RFC document detailing the protocol’s specifications.
+                                    </li>
+                                </ul>
+                                <a href="https://github.com/rooneyshuman/IRC_Project"
+                                    class="btn btn-sm btn-outline-secondary mb-0">View</a>
                             </div>
                         </div>
                     </div>
@@ -102,16 +108,18 @@
                         <div class="card mb-4 shadow">
                             <div class="card-header">CAR INFORMATION DATABASE</div>
                             <div class="card-body">
-                              <ul>
-                                <li>
-                                    Designed a schema, created an entity relational diagram, and implemented a database in
-                                    PostgreSQL DBMS from CSV files.
-                                </li>
-                                <li>
-                                    Wrote SQL queries to retrieve desired information from the database.
-                                </li>
-                              </ul>
-                              <a href="https://github.com/rooneyshuman/Cars_Database" class="btn btn-sm btn-outline-secondary mb-0">View</a> 
+                                <ul>
+                                    <li>
+                                        Designed a schema, created an entity relational diagram, and implemented a
+                                        database in
+                                        PostgreSQL DBMS from CSV files.
+                                    </li>
+                                    <li>
+                                        Wrote SQL queries to retrieve desired information from the database.
+                                    </li>
+                                </ul>
+                                <a href="https://github.com/rooneyshuman/Cars_Database"
+                                    class="btn btn-sm btn-outline-secondary mb-0">View</a>
                             </div>
                         </div>
                     </div>
@@ -119,35 +127,41 @@
                         <div class="card mb-4 shadow">
                             <div class="card-header">STFP CLIENT APPLICATION</div>
                             <div class="card-body">
-                              <ul>
-                                <li>
-                                    Acted as scrum leader within a team of 6, facilitating stand-ups and project management
-                                    boards to develop an SFTP client. </li>
-                                <li>
-                                    Utilized Maven for dependency management, JUnit for unit testing, and Java for project
-                                    implementation.
-                                </li>
-                              </ul>
-                              <a href="https://github.com/rooneyshuman/SFTP-App" class="btn btn-sm btn-outline-secondary mb-0">View</a> 
+                                <ul>
+                                    <li>
+                                        Acted as scrum leader within a team of 6, facilitating stand-ups and project
+                                        management
+                                        boards to develop an SFTP client. </li>
+                                    <li>
+                                        Utilized Maven for dependency management, JUnit for unit testing, and Java for
+                                        project
+                                        implementation.
+                                    </li>
+                                </ul>
+                                <a href="https://github.com/rooneyshuman/SFTP-App"
+                                    class="btn btn-sm btn-outline-secondary mb-0">View</a>
                             </div>
                         </div>
                     </div>
-
+                    <!-- 2nd project row -->
                     <div class="col-md-4">
                         <div class="card mb-4 shadow">
                             <div class="card-header">DATA PROCESSING SOFTWARE</div>
                             <div class="card-body">
-								<ul>
-									<li>
-										Used Agile methods within a team of 5 to generate reports, test plans, and requirements
-										documentation to develop software meeting the client’s expectations.
-									</li>
-									<li>
-										Utilized source control (Git), unit testing (JUnit), project management (Trello), and
-										daily stand-ups as development tools.
-									</li>
-								</ul>
-                                <a href="https://github.com/rooneyshuman/ChocAn_Data_Processing_Tool" class="btn btn-sm btn-outline-secondary mb-0">View</a> 
+                                <ul>
+                                    <li>
+                                        Used Agile methods within a team of 5 to generate reports, test plans, and
+                                        requirements
+                                        documentation to develop software meeting the client’s expectations.
+                                    </li>
+                                    <li>
+                                        Utilized source control (Git), unit testing (JUnit), project management
+                                        (Trello), and
+                                        daily stand-ups as development tools.
+                                    </li>
+                                </ul>
+                                <a href="https://github.com/rooneyshuman/ChocAn_Data_Processing_Tool"
+                                    class="btn btn-sm btn-outline-secondary mb-0">View</a>
                             </div>
                         </div>
                     </div>
@@ -155,17 +169,18 @@
                         <div class="card mb-4 shadow">
                             <div class="card-header">Xv6 OPERATING SYSTEM MODIFICATIONS</div>
                             <div class="card-body">
-								<ul>
-									<li>
-										Implemented new features for Xv6 in C: date command, compute and display the
-										elapsed time of a process, MLFQ algorithm for scheduling processes on the CPU.
-									</li>
-									<li>
-										Added User ID, Group ID, and Parent Process ID to the process data structure to
-										support file ownership and permissions.
-									</li>
-								</ul>
-                                <a href="https://github.com/rooneyshuman/XV6-OS" class="btn btn-sm btn-outline-secondary mb-0">View</a> 
+                                <ul>
+                                    <li>
+                                        Implemented new features for Xv6 in C: date command, compute and display the
+                                        elapsed time of a process, MLFQ algorithm for scheduling processes on the CPU.
+                                    </li>
+                                    <li>
+                                        Added User ID, Group ID, and Parent Process ID to the process data structure to
+                                        support file ownership and permissions.
+                                    </li>
+                                </ul>
+                                <a href="https://github.com/rooneyshuman/XV6-OS"
+                                    class="btn btn-sm btn-outline-secondary mb-0">View</a>
                             </div>
                         </div>
                     </div>
@@ -173,29 +188,33 @@
                         <div class="card mb-4 shadow">
                             <div class="card-header">QUICKSORTS</div>
                             <div class="card-body">
-								<ul>
-									<li>
-										Implemented Quicksort with Insertion Sort, Dual Pivot Quicksort, and Dual Pivot Quicksort with Insertion Sort in Java.
-									</li>
-									<li>
-										Generated timed tests and analyzed the data to compare algorithm efficiencies and determine the conditions under which one outperforms the others.
-									</li>
-								</ul>
-                                <a href="https://github.com/rooneyshuman/Quicksorts" class="btn btn-sm btn-outline-secondary mb-0">View</a> 
+                                <ul>
+                                    <li>
+                                        Implemented Quicksort with Insertion Sort, Dual Pivot Quicksort, and Dual Pivot
+                                        Quicksort with Insertion Sort in Java.
+                                    </li>
+                                    <li>
+                                        Generated timed tests and analyzed the data to compare algorithm efficiencies
+                                        and determine the conditions under which one outperforms the others.
+                                    </li>
+                                </ul>
+                                <a href="https://github.com/rooneyshuman/Quicksorts"
+                                    class="btn btn-sm btn-outline-secondary mb-0">View</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- Education Section -->
         <div class="album py-5" id="education">
             <div class="container">
                 <h1 id="section_title">EDUCATION</h1>
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="card mb-4 shadow" id="edu_card">
-                            <div class="card-header text-left mt-2 pb-0" id="edu_header">PORTLAND STATE UNIVERSITY - 2020 (expected)</div>
+                            <div class="card-header text-left mt-2 pb-0" id="edu_header">PORTLAND STATE UNIVERSITY -
+                                2020 (expected)</div>
                             <div class="card-body pt-2">
                                 <p>Master of Science in Computer Science, GPA 3.7/4.0</p>
                                 <ul>
@@ -205,32 +224,59 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                            <div class="card mb-4 shadow" id="edu_card">
-                                <div class="card-header text-left mt-2 pb-0" id="edu_header">PORTLAND STATE UNIVERSITY - 2018</div>
-                                <div class="card-body pt-2">
-                                    <p>Post-Baccalaureate in Computer Science, GPA 3.7/4.0</p>
-                                    <ul>
-                                        <li>Completed Graduate Preparatory Track coursework to qualify for graduate admission</li>
-                                    </ul>
-                                </div>
+                        <div class="card mb-4 shadow" id="edu_card">
+                            <div class="card-header text-left mt-2 pb-0" id="edu_header">PORTLAND STATE UNIVERSITY -
+                                2018</div>
+                            <div class="card-body pt-2">
+                                <p>Post-Baccalaureate in Computer Science, GPA 3.7/4.0</p>
+                                <ul>
+                                    <li>Completed Graduate Preparatory Track coursework to qualify for graduate
+                                        admission</li>
+                                </ul>
                             </div>
                         </div>
+                    </div>
                     <div class="col-md-8">
                         <div class="card mb-4 shadow" id="edu_card">
-                            <div class="card-header text-left mt-2 pb-0" id="edu_header">UNIVERSITY OF SOUTHERN CALIFORNIA - 2015</div>
+                            <div class="card-header text-left mt-2 pb-0" id="edu_header">UNIVERSITY OF SOUTHERN
+                                CALIFORNIA - 2015</div>
                             <div class="card-body pt-2">
                                 <p>BA in International Relations</p>
                                 <ul>
                                     <li>Minor in Computer Security</li>
                                     <li>Specialization in Digital Forensics</li>
                                 </ul>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- Contact form -->
+        <div class="album py-5" id="contact_form">
+            <div class="container">
+                <h1 id="section_title">SEND ME A MESSAGE</h1>
+                <!-- <div class="row justify-content-center"> -->
+                <div class="d-flex justify-content-center">
+                    <form id="form">
+                        <div class="form-group row">
+                            <div class="col-sm-8">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group row my-2">
+                            <div class="col-sm-8" id="inputNotes">
+                                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" class="btn btn-secondary">Send</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
     </main>
 
     <footer class="text-muted bg-white">

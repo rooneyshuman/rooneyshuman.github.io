@@ -58,6 +58,7 @@
   text-align: center;
   margin-bottom: 40px;
   font-weight: 300;
+  color: #5A5050;
 }
 
 .card-header {
@@ -81,6 +82,16 @@
   background-color: rgb(241, 241, 241) !important;
   border: transparent;
 }
+
+#contact_form {
+  background-color: #3EACA8;
+ }
+
+ .form_button {
+   margin: 0;
+   text-align: center;
+ }
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
