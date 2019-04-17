@@ -1,5 +1,14 @@
 .navbar {
   margin-bottom: 30px;
+  background-color: #547A82; 
+}
+
+#navbarHeader {
+  background-color: #547A82;
+}
+
+#icon {
+  color: white;
 }
 
 .jumbotron {
