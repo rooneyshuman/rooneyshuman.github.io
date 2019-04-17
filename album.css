@@ -20,11 +20,6 @@
   background-position-y: 45%;
 }
 
-.jumbotron-heading {
-  font-weight: 600 !important;
-  text-shadow: 3px 3px #5A5050 !important;
-}
-
 #headingtext {
   left: 50px;
 }
@@ -37,7 +32,7 @@
 }
 
 .lead {
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   text-shadow: 2px 2px #5A5050 !important;
   font-size: 25px !important;
 }
@@ -51,11 +46,24 @@
 }
 
 .jumbotron-heading {
+  text-shadow: 3px 3px #5A5050 !important;
   font-weight: 300;
 }
 
 .jumbotron .container {
   max-width: 40rem;
+}
+
+#projects {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card-header {
+  color: #3EACA8;
+  font-weight: bold;
+  text-align: center;
+  background-color: white !important;
 }
 
 footer {
@@ -67,6 +75,6 @@ footer p {
   margin-bottom: .25rem;
 }
 
-#back{
-  color: #3EACA8 !important;
+#back {
+  color: #3EACA8 !important
 }
