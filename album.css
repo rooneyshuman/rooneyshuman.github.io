@@ -16,6 +16,9 @@
   padding-bottom: 3rem;
   margin-bottom: 0;
   background-color: #fff;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position-y: 93%;
 }
 @media (min-width: 768px) {
   .jumbotron {
