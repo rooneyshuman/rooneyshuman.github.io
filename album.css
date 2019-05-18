@@ -87,13 +87,21 @@
   background-color: #547A82;
  }
 
+ form {
+  padding-left: 34%;
+  margin: 0;
+}
+
+.form-group.row {
+  margin: 0;
+}
+
  .form_button {
-   margin: 0;
    text-align: center;
  }
 
 footer {
-  padding-top: 3rem;
+  margin-top: 3rem;
   padding-bottom: 3rem;
 }
 
