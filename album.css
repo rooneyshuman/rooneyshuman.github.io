@@ -10,6 +10,10 @@
   color: white;
 }
 
+#logo {
+  padding-right: 15px;
+}
+
 .jumbotron {
   padding-top: 3rem;
   padding-bottom: 3rem;
